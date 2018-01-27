@@ -1,6 +1,6 @@
 /*
  Theme Name:   DocPress Child
- Theme URI:    http://dvxfitness.com.br/espm
+ Theme URI:    http://kb.espm.br
  Description:  DocPress Child Theme
  Author:       Caio Oliveira
  Author URI:   http://caiovgoliveira.com.br
@@ -28,6 +28,10 @@ header.jumbotron .form-group .btn:focus{
 	border-color: #8c022c;
 }
 
+body{
+	color: #454545;
+}
+
 .navbar{
 	margin-bottom: 0;
 	padding-bottom: 21px;
@@ -43,7 +47,12 @@ header.jumbotron .form-group .btn:focus{
 }
 
 a{
-	color: #000;
+	color: #009697;
+	text-decoration: underline;
+}
+
+a:hover, a:focus, a:active{
+	color: #009697;
 }
 
 .anchor{
@@ -53,15 +62,21 @@ a{
    visibility:hidden;
 }
 
-.widget-wrap ul li{
-	padding-bottom: 2rem;
-}
-
 
 .main-title{
+	margin-top: 0;
 	margin-bottom: 5rem;
-    color: #a80532;
+    color: #454545;
     font-weight: bold;
+}
+
+/***********************
+Sidebar
+************************/
+
+.sidebar .docwidget{
+	background-color: #f3f3f3 !important;
+	border: 1px solid #e4e4e4;
 }
 
 
@@ -70,22 +85,47 @@ a{
 }
 
 .mwm-aal-sidebar-container ul li a{
+	text-decoration: none;
 	color: #454545;
 }
 
 .mwm-aal-sidebar-container ul li a:hover{
-	color: #8c022c;
+	color: #009697;
+	text-decoration: underline;	
 }
+
+.widget-wrap ul li{
+	padding-bottom: 2rem;
+}
+
+/***********************
+Formatações de texto específicas
+************************/
 
 .conteudo-aviso{
-	background: url("https://kb.espm.br/wp-content/uploads/2017/12/icone-atencao.png") no-repeat scroll 50% 15% transparent;
-    text-align: center;
-    padding: 3rem;
-	background-color: #eee;
-	color: #454545;
-	border: 3px dashed green;
-
+	background: url("https://kb.espm.br/wp-content/uploads/2017/12/icone-atencao.png") no-repeat scroll 7% 40% transparent;
+	padding: 3rem 3rem 3rem 12rem;
+	background-color: #a80532;
+	color: #fff;
+	text-align: left;
+	margin: 3rem 0;
 }
+
+	.conteudo-aviso p{
+		margin: 0;
+	}
+
+.conteudo-duvidas{
+	background-color: #009697;
+	color: #fff;
+	padding: 2rem;
+}
+
+	.conteudo-duvidas{
+		margin-top: 0;
+	}
+
+
 
 @media(min-width:1080px) {
 
