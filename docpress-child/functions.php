@@ -10,19 +10,16 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-?>
-
-<?php
 
 /**
- * Register our sidebars and widgetized areas.
+ * Registro da Sidebar
  *
  */
-function arphabet_widgets_init() {
+function kbespm_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => 'kaltura_sidebar',
-		'id'            => 'kaltura_sidebar',
+		'name'          => 'content_sidebar',
+		'id'            => 'content_sidebar',
 		'before_widget' => '<aside id="%1$s" class="row widget docwidget widget %2$s"><div class="widget-wrap">',
 		'after_widget'  => '</div></aside>',
 		'before_title'  => '<strong class="widget-title">',
@@ -30,7 +27,7 @@ function arphabet_widgets_init() {
 	) );
 
 }
-add_action( 'widgets_init', 'arphabet_widgets_init' );
+add_action( 'widgets_init', 'kbespm_widgets_init' );
 
 /**
  * Inserindo botões personalizados Visual editor
@@ -58,7 +55,7 @@ function my_mce_before_init_insert_formats( $init_array ) {
 		array(  
 			'title' => 'Dica',  
 			'block' => 'div',  
-			'classes' => 'conteudo-dica',
+			'classes' => 'conteudo-duvidas',
 			'wrapper' => true,
 		),
 	);  

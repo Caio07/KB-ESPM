@@ -3,8 +3,8 @@
 	<div class="doc-main">
 		<div class="container">
 			<div class="row">
-				<?php is_active_sidebar( 'kaltura_sidebar' ) ?>
-				<div class="content-area col-sm-8 col-md-8">
+				<?php is_active_sidebar( 'content_sidebar' ) ?>
+				<div class="content-area col-md-offset-1 col-sm-7 col-md-7">
 					<div class="main-content page">
 					<h1 class="main-title"><?php single_post_title(); ?></h1>
 					<?php if ( have_posts() ) : ?> 	
