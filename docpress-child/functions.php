@@ -53,9 +53,16 @@ function my_mce_before_init_insert_formats( $init_array ) {
 			
 		),  
 		array(  
-			'title' => 'Dica',  
+			'title' => 'Duvidas',  
 			'block' => 'div',  
 			'classes' => 'conteudo-duvidas',
+			'wrapper' => true,
+		),
+
+		array(  
+			'title' => 'Dicas',  
+			'block' => 'ul',  
+			'classes' => 'dicas',
 			'wrapper' => true,
 		),
 	);  
