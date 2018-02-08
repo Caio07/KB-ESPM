@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="content-area col-sm-12 col-md-12">
-					<div class="main-content page">
+					<div class="main-content page home">
 					<h1> Mais acessados </h1>
 						<div class="categories">
 							<div class="row">
