@@ -30,6 +30,34 @@ header.jumbotron .form-group .btn:focus{
 
 body{
 	color: #454545;
+	line-height: 1.8;
+}
+
+a{
+	color: #009697;
+	text-decoration: underline;
+}
+
+
+a:hover, a:focus, a:active{
+	color: #009697;
+	text-decoration: none;
+}
+
+.home a{
+	text-decoration: none;
+    color: #454545;
+	
+}
+
+
+.entry-content, .entry-content p, .entry-content span{
+	line-height: 2;
+}
+
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+	display: inline-block;
 }
 
 .navbar{
@@ -46,14 +74,6 @@ body{
 	background-color: #000;
 }
 
-a{
-	color: #009697;
-	text-decoration: underline;
-}
-
-a:hover, a:focus, a:active{
-	color: #009697;
-}
 
 .anchor{
    display:block;
@@ -69,6 +89,9 @@ a:hover, a:focus, a:active{
     color: #454545;
     font-weight: bold;
 }
+
+
+
 
 /***********************
 Sidebar
@@ -125,14 +148,16 @@ Formatações de texto específicas
 		margin-top: 0;
 	}
 
-
-
-@media(min-width:1080px) {
-
-div.doc-main .container {
-		width: 100% !important;
-	}
+.dicas{
+	list-style: none;
 }
+
+	.dicas li{
+		margin-bottom: 1.5rem;
+  		background: url('https://kb.espm.br/wp-content/uploads/2018/02/icon-dica.png') no-repeat left center;
+  		padding: 15px 0 10px 40px;
+	}
+
 
 .box-categories{
 	height: 200px;
@@ -148,4 +173,19 @@ margin: 3rem auto 2.4rem;
 
 .categories{
 	padding-top: 5rem;
+}
+
+
+
+@media(min-width:1080px) {
+
+div.doc-main .container {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 768px){
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+	display: inline-block;
+	}
 }
