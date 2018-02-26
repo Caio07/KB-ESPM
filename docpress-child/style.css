@@ -33,6 +33,10 @@ body{
 	line-height: 1.8;
 }
 
+td{
+	padding: 1em !important;
+}
+
 a{
 	color: #009697;
 	text-decoration: underline;

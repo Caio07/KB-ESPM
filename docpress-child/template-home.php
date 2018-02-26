@@ -44,7 +44,7 @@
 					<div class="categories">
 						<div class="row">
 							<div class="col-md-3 text-center box-categories">
-								<a href="comecando-com-o-blackboard" target="_blank" rel="noopener">
+								<a href="comecando-com-o-blackboard/#criar_aviso" target="_blank" rel="noopener">
 								<img class="size-full wp-image-9 alignnone" src="https://kb.espm.br/wp-content/uploads/2018/01/icon-avisos.png" alt="" /><br/>
 								<p>Avisos</p></a>
 							</div>
