@@ -95,6 +95,12 @@
 									<p>Rubricas</p>
 								</div>
 							</a>
+							<a href="safeassign" target="_blank" rel="noopener">
+								<div class="col-md-3 text-center box-categories">
+									<img class="alignnone size-full wp-image-21" src="https://kb.espm.br/wp-content/uploads/2018/02/icon-safeAssign.png" alt="" /><br/>
+									<p>SafeAssign</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<!--<h1> Casos práticos </h1>
